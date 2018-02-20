@@ -43,9 +43,8 @@ com.liferay.cdi.WEB-INF/lib.scanner.whitelisted.annotations.to.scan.for=\
 	javax.enterprise.context.ApplicationScoped,\
 	javax.enterprise.context.ConversationScoped,\
 	javax.enterprise.context.Dependent,\
-	javax.enterprise.context.NormalScope,\
 	javax.enterprise.context.RequestScoped,\
 	javax.enterprise.context.SessionScoped,\
 	javax.inject.Named
-#	Any custom scopes that were annotated with @NormalScope are also scanned for.
+#	Any custom scopes that are annotated with @NormalScope are also scanned for.
 ```
